@@ -1,8 +1,16 @@
 .jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px;
+  background-image: url(/images/defaultBcg.jpg); 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ padding-bottom: 80px;
+ align-items: center;
+ min-height: calc(100vh - 5px);
+  
+  
 }
+
 .jumbotron .btn-primary {
   background: #845ac7;
   border-color: #845ac7;
