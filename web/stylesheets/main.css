@@ -1,4 +1,4 @@
-/*.jumbotron {
+.jumbotron {
   background: #532F8C;
   color: white;
   padding-bottom: 80px;
@@ -33,8 +33,8 @@
 }
 .jumbotron .lang-logo img {
   max-width: 100%;
-}*/
-
+}
+/*
 html {
   font-family: Helvetica;
   display: inline-block;
@@ -42,9 +42,9 @@ html {
   padding: 0px;
   text-align: center;
   color: white;
-  background: #16222A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #16222A;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 
+  background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
  }
  h2 { 
      font-size: 3.0rem;
@@ -76,4 +76,4 @@ html {
   margin: 4px 2px;
   cursor: pointer;
   }
-  
+  */
