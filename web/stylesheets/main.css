@@ -22,10 +22,10 @@
   color:wheat;
   max-width: 90%;
   margin: 1em auto 2em;
-  font-size: 180%;
+  font-size: 220%;
 }
 .jumbotron h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 .navbar + .jumbotron {
   margin-top: -20px;
