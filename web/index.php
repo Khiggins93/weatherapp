@@ -2,7 +2,7 @@
 
 use Symfony\Component\HttpFoundation\Request;
 
-date_default_timezone_set('America/Bogota');
+date_default_timezone_set('UTC');
 
 require('../vendor/autoload.php');
 
