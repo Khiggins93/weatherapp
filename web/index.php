@@ -35,7 +35,7 @@ $app->post('/enviarDato', function (Request $request) use ($app) {
 
 
 //Ruta de demostración, se recibe(n) dato(s) y se manipulan
-$app->post('/guardarDato', function (Request $request) use ($app) {
+$app->post('/data', function (Request $request) use ($app) {
 
   $temperature = $request->get('temperature');
   $humidity = $request->get('humidity');
