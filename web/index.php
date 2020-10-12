@@ -41,8 +41,7 @@ $app->post('/data', function (Request $request) use ($app) {
   $humidity = $request->get('humidity');
   $tabla = $request->get('weather_db');
 
-	$dbconn = pg_pconnect("host=ec2-54-160-18-230.compute-1.amazonaws.com
-  port=5432 dbname=dbal62q3heftpo user=kpshnmcnemzbbl password=578e316675899fc6a891736045d00f0f4adc63171016be40bc8f16c90f0cf2de");
+	$dbconn = pg_pconnect("host=ec2-54-160-18-230.compute-1.amazonaws.com port=5432 dbname=dbal62q3heftpo user=kpshnmcnemzbbl password=578e316675899fc6a891736045d00f0f4adc63171016be40bc8f16c90f0cf2de");
   
   $data = array(
   "date" => date('Y-m-d H:i:s'),
