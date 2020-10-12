@@ -44,7 +44,7 @@ $app->post('/guardarDato', function (Request $request) use ($app) {
   port=5432 dbname=dbal62q3heftpo user=kpshnmcnemzbbl password=578e316675899fc6a891736045d00f0f4adc63171016be40bc8f16c90f0cf2de");
   
   $data = array(
-  "Date" => date("d-m-Y H:i"),
+  "Date" => date("Y-m-d H:i:s"),
   "temperature" => $temperature,
   "humidity" => $humidity
 );
