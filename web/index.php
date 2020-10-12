@@ -35,14 +35,19 @@ $app->post('/enviarDato', function (Request $request) use ($app) {
 
 
 //Ruta de demostración, se recibe(n) dato(s) y se manipulan
-$app->post('/guardarDato', function (Request $request) use ($app) {
-
-	$temperature = $request->get('temperature');
-	$tabla = $request->get('tabla');
+$app->post('/guardarDato', function (Request $request) use ($app) {	
 
 	$dbconn = pg_pconnect("host=ec2-54-160-18-230.compute-1.amazonaws.com
   port=5432 dbname=dbal62q3heftpo user=kpshnmcnemzbbl password=578e316675899fc6a891736045d00f0f4adc63171016be40bc8f16c90f0cf2de");
 
+  if($dbconn){
+    return "DB connected";
+  }else{
+    return "DB no connected"
+  }
+
+  $nombre = $request->get('nombre');
+  $respuesta = "Hola" .$nombre;
    	
    	return $respuesta;
 });
