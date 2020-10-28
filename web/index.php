@@ -48,7 +48,7 @@ $app->post('/data', function (Request $request) use ($app) {
   "temperature" => $temperature,
   "humidity" => $humidity
 );
-  $respuesta = pg_insert($dbconn, 'weather_db', $data);
+  $respuesta = pg_insert($dbconn, 'weatherdb', $data);
 
    	return $respuesta;
 });
